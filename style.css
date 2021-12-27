@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  overflow: hidden;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-card {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 600px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px 5px hsl(217, 59%, 8%);
+}
+
+.main-image {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.view-image {
+  position: absolute;
+  margin-left: 8rem;
+  margin-top: 8rem;
+}
+
+.img-over-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-left: 1.6rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.img-container:hover .img-over-icon {
+  opacity: 0.6;
+  cursor: pointer;
+  color: #fff;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  margin-left: 1.6rem;
+  font-weight: 400;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 1.6rem;
+  margin-right: 1rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.ethicon {
+  margin-left: 1.75rem;
+}
+
+.icontext {
+  margin-left: 0.4rem;
+  vertical-align: top;
+  color: hsl(178, 100%, 50%);
+}
+
+.clockicon {
+  margin-left: 6.7rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.clocktext {
+  vertical-align: top;
+  color: hsl(215, 51%, 70%);
+}
+
+.hline {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+  border: 0;
+  height: 2px;
+  background: hsl(215, 32%, 27%);
+}
+
+.img-avatar {
+  margin-left: 24px;
+  margin-top: 18px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.imgtitle {
+  position: absolute;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.imgname {
+  position: absolute;
+  text-align: center;
+  margin-left: 6.25rem;
+  margin-top: 1.5rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.imgname:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+  color: #a0a0a0;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.attribution {
+  margin-bottom: 1rem;
+}
